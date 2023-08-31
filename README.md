@@ -1,0 +1,2 @@
+# Smart Surveillance System Using Raspberry Pi and Arduino
+ A smart surveillance system that uses the Raspberry Pi camera for live video streaming. The video is sent over the network to the PC, where object detection is then performed. If a certain object is detected, in this case 'person', then a signal is sent to the Arduino, which then lights up the LED for the duration of the object's presence within the video feed.
