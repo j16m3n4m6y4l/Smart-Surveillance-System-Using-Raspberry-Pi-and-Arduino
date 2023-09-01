@@ -63,3 +63,7 @@ https://github.com/j16m3n4m6y4l/Smart-Surveillance-System-Using-Raspberry-Pi-and
 ## Acknowledgements
 - This project uses the Ultralytics YOLO model for object detection. Make sure to follow their licensing and usage terms.
 - Inspiration and ideas for this project came from various online tutorials and communities. Thank you to the Raspberry Pi, Arduino, and computer vision communities for their valuable resources.
+
+  - [Live Video Stream](https://github.com/Arijit1080/Live-Video-Stream-from-Raspberry-Pi-Camera-over-the-Network)
+  - [Object Detection](https://github.com/freedomwebtech/yolov8-opencv-win11)
+  - [LED Controller](https://github.com/Chando0185/led_controller_python_arduino)
