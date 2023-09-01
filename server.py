@@ -14,9 +14,11 @@ from ultralytics import YOLO
 
 model=YOLO('yolov8n.pt')
 
+port = 'COM4'
+pin = '13'
 
-board = pyfirmata.Arduino('COM4')
-led = board.get_pin('d:13:o')
+board = pyfirmata.Arduino(port)
+led = board.get_pin(f'd:{pin}:o')
 
 
 #is_sound_playing = False

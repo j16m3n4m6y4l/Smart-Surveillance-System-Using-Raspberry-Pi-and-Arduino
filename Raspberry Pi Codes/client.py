@@ -5,8 +5,10 @@ import time
 import picamera
 import sys
 
+ip = '111.111.1.111'
+
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(('111.111.1.111', 8000)) # Enter your own ip
+client_socket.connect((ip, 8000)) # Enter your own ip
 
 connection = client_socket.makefile('wb')
 try:
