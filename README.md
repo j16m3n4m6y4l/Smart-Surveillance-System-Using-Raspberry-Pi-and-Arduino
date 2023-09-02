@@ -22,7 +22,7 @@ Before you start, make sure you have the following hardware and software install
 7. Two jumper wires
 8. Breadboard
 ### Software Dependencies
-- Python 3.x on both the Raspberry Pi and PC
+- Python 3.7.3 on both the Raspberry Pi and PC
 - Raspberry Pi: picamera, socket, struct, time, io
 - PC: socket, struct, PIL, cv2, numpy, sys, pandas, winsound, threading, pyfirmata, ultralytics YOLO
 
