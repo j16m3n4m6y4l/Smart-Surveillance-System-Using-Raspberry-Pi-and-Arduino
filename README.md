@@ -33,7 +33,8 @@ Before you start, make sure you have the following hardware and software install
 4. Place the "client.py" code from the "Raspberry Pi Codes" folder into the Raspberry Pi.
 5. Place the "server.py" code onto your PC.
 6. Connect the Arduino board to your PC.
-7. Place the LED, resistor, jumper wires and the breadboard in accordance to the setup below: ![image](https://github.com/j16m3n4m6y4l/Smart-Surveillance-System-Using-Raspberry-Pi-and-Arduino/assets/132979609/5ab4da69-cfb6-463d-a395-787800257889)
+7. In the Arduino IDE, go to File -> Examples -> Firmata and select StandardFirmata. A new window should pop up. Upload the code within that window to the Arduino.
+8. Place the LED, resistor, jumper wires and the breadboard in accordance to the setup below: ![image](https://github.com/j16m3n4m6y4l/Smart-Surveillance-System-Using-Raspberry-Pi-and-Arduino/assets/132979609/5ab4da69-cfb6-463d-a395-787800257889)
 
 9. In 'server.py', Modify the Arduino's COM port (e.g., 'COM4') to match the one on your PC, as indicated in the Device Manager.
 10. In 'client.py', replace '111.111.1.111' with your PC's IP
